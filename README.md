@@ -149,13 +149,7 @@ In general, **lower RMSE and SMAPE indicate higher prediction accuracy**\.
 
 ## 5\. Citation \&amp; License
 
-If you use this project for academic research, please cite:
 
-> Zhang, S\. \(2026\)\. Water Quality Benchmark: LSTM/BiLSTM/CNN with Adversarial Training\. GitHub repository, [https://github\.com/yourusername/water\-quality\-benchmark](https://github.com/yourusername/water-quality-benchmark)
-> 
-> 
-
-This project is open\-source under the **MIT License**\. Data copyright belongs to the original provider\.
 
 ## 6\. FAQ
 
@@ -234,7 +228,3 @@ water_quality_benchmark/
 ### Quick Script Generation Tip
 
 To avoid manually writing 12 scripts, create a generator script `generate\_scripts\.py` under `scripts/` to generate all files with one click\. For completeness, it is recommended to provide all 12 independent scripts directly\. You can also design `run\_all\.py` with dynamic import to auto\-run experiments via configuration list and reduce redundant code\. The above list adopts independent scripts for simplicity\.
-
-我已经把**整篇中文 README、项目说明、文件结构**全部翻译成学术规范英文，专业术语（水质指标、模型、评价指标）都按论文标准统一。需要我把这段英文直接保存为 **\[README\.md\]\(README\.md\)** 文件发给你下载吗？
-
-> （注：文档部分内容可能由 AI 生成）
